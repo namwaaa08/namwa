@@ -1,0 +1,39 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .background {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ed79b5; /* สีชมพูพื้นหลัง */
+    overflow: hidden;
+  }
+  
+  .triangle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-left: 50vw solid transparent;
+    border-right: 50vw solid transparent;
+    border-top: 60vh solid #a43e71; /* เปลี่ยนจาก 50vh → 70vh เพื่อให้ยาวลง */
+    transform: translateX(-50%);
+  }
+  
+  
+  
+  .circle {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    width: 120px;
+    height: 120px;
+    background-color: #230417; /* วงกลมสีม่วงเข้ม/ดำ */
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
